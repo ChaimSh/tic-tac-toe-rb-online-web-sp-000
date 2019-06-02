@@ -28,6 +28,11 @@ def move(board, index, current_player)
 end
 
 def position_taken?(board, index)
+<<<<<<< HEAD
+=======
+  binding.pry
+
+>>>>>>> 43d3b77bdafdb85f7c8ff1478b3f9379d0e5b11d
   if board[index] == "X" || board[index] == "O"
     true
   else
@@ -128,6 +133,7 @@ end
 
 
 def play(board)
+<<<<<<< HEAD
 while !over?(board) == true
   turn(board)
 end
@@ -138,4 +144,15 @@ if won?(board)
 elsif draw?(board)
   puts "Cat's Game!"
 end
+=======
+  x = 100
+  x = 24
+  require 'pry'
+  binding.pry
+
+  x = 400
+
+  binding.pry
+  x
+>>>>>>> 43d3b77bdafdb85f7c8ff1478b3f9379d0e5b11d
 end
